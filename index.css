@@ -1,0 +1,34 @@
+body {
+  background-color:burlywood;
+}
+
+#calc {
+  display: block;
+  margin: 20px 5px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="button"] {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color:black;
+}
+
+#clear {
+  margin-top: 20px;
+}
